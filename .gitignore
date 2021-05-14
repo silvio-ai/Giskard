@@ -15,13 +15,19 @@ dist/
 
 # Log files
 *.log
+#logs/
 
 # Package files
-*.jar
+#*.jar
 
 # Maven
 target/
 dist/
+
+
+# sbt
+project/
+.bsp/
 
 # JetBrains IDE
 .idea/
@@ -47,4 +53,5 @@ Thumbs.db
 *.flv
 *.mov
 *.wmv
+
 
