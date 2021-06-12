@@ -1,29 +1,8 @@
-# README #
+## sbt project compiled with Scala 3
 
-This README would normally document whatever steps are necessary to get your application up and running.
+### Usage
 
-### What is this repository for? ###
+This is a normal sbt project. You can compile code with `sbt compile`, run it with `sbt run`, and `sbt console` will start a Scala 3 REPL.
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+For more information on the sbt-dotty plugin, see the
+[dotty-example-project](https://github.com/lampepfl/dotty-example-project/blob/master/README.md).

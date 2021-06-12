@@ -63,7 +63,7 @@ class ClickableMapPanel(map: ClickableMap) extends Panel {
     -1
   }
 
-  override def paint(g:Graphics2D){
+  override def paint(g:Graphics2D) = {
     super.paint(g)
     g.drawImage(map.image, new AffineTransform(), null)
     g.setComposite(AlphaComposite.getInstance(AlphaComposite.SRC_OVER, alpha))
