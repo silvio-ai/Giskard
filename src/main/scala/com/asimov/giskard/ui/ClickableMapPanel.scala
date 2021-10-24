@@ -1,6 +1,6 @@
 package com.asimov.giskard.ui
 
-import concurrent.Notifyable
+import com.asimov.giskard.concurrent.{GiskardMessages, Notifyable, NewSymbol}
 
 import java.awt.{AlphaComposite, Color, Graphics2D, Toolkit}
 import java.awt.geom.AffineTransform
@@ -19,7 +19,7 @@ class ClickableMapPanel(map: ClickableMap) extends Panel {
   val fill = Color.BLUE
   var currentSymbol = ""
   var doClipboard = true
-  var receiver: Notifyable = null
+  var receiver: Notifyable[GiskardMessages] = null
 
   if (map != null) {
     val w = map.image.getWidth(null)
@@ -47,11 +47,11 @@ class ClickableMapPanel(map: ClickableMap) extends Panel {
           case InputEvent.CTRL_DOWN_MASK => {
             if (oldSymbol != null) currentSymbol = oldSymbol + currentSymbol
             if (doClipboard) copy2Clipboard(currentSymbol)
-            if(receiver != null) receiver.onCompletion(this, currentSymbol)
+            if(receiver != null) receiver.onMessage(null, NewSymbol(currentSymbol))  //.onCompletion(this, currentSymbol)
           }
           case _ => {
             if (doClipboard) copy2Clipboard(currentSymbol)
-            if(receiver != null) receiver.onCompletion(this, currentSymbol)
+            if(receiver != null) receiver.onMessage(null, NewSymbol(currentSymbol))  //.onCompletion(this, currentSymbol)
           }
         }
       }
