@@ -1,8 +1,12 @@
-## sbt project compiled with Scala 3
+## An app to help insert IPA symbols in the clipboard 
 
-### Usage
+The app displays the IPA alphabet in the main window
 
-This is a normal sbt project. You can compile code with `sbt compile`, run it with `sbt run`, and `sbt console` will start a Scala 3 REPL.
+![image](Giskard.png)
 
-For more information on the sbt-dotty plugin, see the
-[dotty-example-project](https://github.com/lampepfl/dotty-example-project/blob/master/README.md).
+* Just click on the symbol and it will be inserted in the clipboard.
+* Using the Ctrl key you can add a diacritic or any other symbol together with the first symbol.
+* Using the Shift key it emits the phoneme's word initial sound.
+* Using the Alt key it emits the phoneme's word internal sound.
+
+The red dot indicates sounds not yet present
