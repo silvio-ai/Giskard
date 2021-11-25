@@ -16,75 +16,75 @@ object IPAClickableMap extends ClickableMap(ImageIO.read(getResourceUrl(GiskardU
   addRectangle(609, 54, 668, 82, "ɴ", "ɴa.wav", "aɴa.wav")          //uvular
 
   //plosives
-  addRectangle(98, 82, 128, 110, "p", "pa.wav", "apa.wav")          //bilabial unsounded
-  addRectangle(128, 82, 158, 110, "b", "ba.wav", "aba.wav")         //bilabial sounded
-  addRectangle(219, 82, 298, 110, "t", "ta.wav", "ata.wav")         //dental unsounded
-  addRectangle(298, 82, 377, 110, "d", "da.wav", "ada.wav")         //dental sounded
-  addRectangle(377, 82, 407, 110, "ʈ", "ʈa.wav", "aʈa.wav")         //retroflex unsounded
-  addRectangle(407, 82, 436, 110, "ɖ", "ɖa.wav", "aɖa.wav")         //retroflex sounded
-  addRectangle(436, 82, 492, 110, "c", "ca.wav", "aca.wav")         //palatal unsounded
-  addRectangle(492, 82, 548, 110, "ɟ", "ɟa.wav", "aɟa.wav")         //palatal sounded
-  addRectangle(548, 82, 578, 110, "k", "ka.wav", "aka.wav")         //velar unsounded
-  addRectangle(578, 82, 608, 110, "g", "ga.wav", "aga.wav")         //velar sounded
-  addRectangle(608, 82, 638, 110, "q", "qa.wav", "aqa.wav")         //uvular unsounded
-  addRectangle(638, 82, 668, 110, "ɢ", "ɢa.wav", "aɢa.wav")         //uvular sounded
+  addRectangle(98, 82, 128, 110, "p", "pa.wav", "apa.wav")          //unvoiced bilabial
+  addRectangle(128, 82, 158, 110, "b", "ba.wav", "aba.wav")         //voiced bilabial
+  addRectangle(219, 82, 298, 110, "t", "ta.wav", "ata.wav")         //unvoiced dental
+  addRectangle(298, 82, 377, 110, "d", "da.wav", "ada.wav")         //voiced dental
+  addRectangle(377, 82, 407, 110, "ʈ", "ʈa.wav", "aʈa.wav")         //unvoiced retroflex
+  addRectangle(407, 82, 436, 110, "ɖ", "ɖa.wav", "aɖa.wav")         //voiced retroflex
+  addRectangle(436, 82, 492, 110, "c", "ca.wav", "aca.wav")         //unvoiced palatal
+  addRectangle(492, 82, 548, 110, "ɟ", "ɟa.wav", "aɟa.wav")         //voiced palatal
+  addRectangle(548, 82, 578, 110, "k", "ka.wav", "aka.wav")         //unvoiced velar
+  addRectangle(578, 82, 608, 110, "g", "ga.wav", "aga.wav")         //voiced velar
+  addRectangle(608, 82, 638, 110, "q", "qa.wav", "aqa.wav")         //unvoiced uvular
+  addRectangle(638, 82, 668, 110, "ɢ", "ɢa.wav", "aɢa.wav")         //voiced uvular
   addRectangle(668, 82, 740, 110, "ʡ", "ʡa.wav", "aʡa.wav")         //Pharyngeal
   addRectangle(740, 82, 770, 110, "ʔ", "ʔa.wav", "aʔa.wav")         //Glottal
 
   //fricatives
-  addRectangle(98, 110, 128, 139, "ɸ", "ɸa.wav", "aɸa.wav")         //bilabial unsounded
-  addRectangle(128, 110, 158, 139, "β", "βa.wav", "aβa.wav")	      //bilabial sounded
-  addRectangle(158, 110, 188, 139, "f", "fa.wav", "afa.wav")	      //labiodental unsounded
-  addRectangle(188, 110, 219, 139, "v", "va.wav", "ava.wav")	      //labiodental sounded
-  addRectangle(219, 110, 245, 139, "θ", "θa.wav", "aθa.wav")	      //dental unsounded
-  addRectangle(245, 110, 272, 139, "ð", "ða.wav", "aða.wav")	      //dental sounded
-  addRectangle(272, 110, 297, 139, "s", "sa.wav", "asa.wav")	      //alveolar unsounded
-  addRectangle(297, 110, 324, 139, "z", "za.wav", "aza.wav")	      //alveolar sounded
-  addRectangle(324, 110, 349, 139, "ʃ", "ʃa.wav", "aʃa.wav")	      //palatoalveolar unsounded
-  addRectangle(349, 110, 378, 139, "ʒ", "ʒa.wav", "aʒa.wav")	      //palatoalveolar sounded
-  addRectangle(377, 110, 407, 139, "ʂ", "ʂa.wav", "aʂa.wav")	      //retroflex unsounded
-  addRectangle(407, 110, 436, 139, "ʐ", "ʐa.wav", "aʐa.wav")	      //retroflex sounded
-  addRectangle(436, 110, 465, 139, "ɕ", "ɕa.wav", "aɕa.wav")	      //alveolopalatal unsounded
-  addRectangle(465, 110, 493, 139, "ʑ", "ʑa.wav", "aʑa.wav")	      //alveolopalatal sounded
-  addRectangle(493, 110, 520, 139, "ç", "ça.wav", "aça.wav")	      //palatal unsounded
-  addRectangle(520, 110, 548, 139, "ʝ", "ʝa.wav", "aʝa.wav")	      //palatal sounded
-  addRectangle(548, 110, 578, 139, "x", "xa.wav", "axa.wav")	      //velar unsounded
-  addRectangle(578, 110, 608, 139, "ɣ", "ɣa.wav", "aɣa.wav")	      //velar sounded
-  addRectangle(608, 110, 638, 139, "χ", "χa.wav", "aχa.wav")	      //uvular unsounded
-  addRectangle(638, 110, 668, 168, "ʁ", "ʁa.wav", "aʁa.wav")	      //uvular sounded fricative/approximant
+  addRectangle(98, 110, 128, 139, "ɸ", "ɸa.wav", "aɸa.wav")         //unvoiced bilabial
+  addRectangle(128, 110, 158, 139, "β", "βa.wav", "aβa.wav")	      //voiced bilabial
+  addRectangle(158, 110, 188, 139, "f", "fa.wav", "afa.wav")	      //unvoiced labiodental
+  addRectangle(188, 110, 219, 139, "v", "va.wav", "ava.wav")	      //voiced labiodental
+  addRectangle(219, 110, 245, 139, "θ", "θa.wav", "aθa.wav")	      //unvoiced dental
+  addRectangle(245, 110, 272, 139, "ð", "ða.wav", "aða.wav")	      //voiced dental
+  addRectangle(272, 110, 297, 139, "s", "sa.wav", "asa.wav")	      //unvoiced alveolar
+  addRectangle(297, 110, 324, 139, "z", "za.wav", "aza.wav")	      //voiced alveolar
+  addRectangle(324, 110, 349, 139, "ʃ", "ʃa.wav", "aʃa.wav")	      //unvoiced palatoalveolar
+  addRectangle(349, 110, 378, 139, "ʒ", "ʒa.wav", "aʒa.wav")	      //voiced palatoalveolar
+  addRectangle(377, 110, 407, 139, "ʂ", "ʂa.wav", "aʂa.wav")	      //unvoiced retroflex
+  addRectangle(407, 110, 436, 139, "ʐ", "ʐa.wav", "aʐa.wav")	      //voiced retroflex
+  addRectangle(436, 110, 465, 139, "ɕ", "ɕa.wav", "aɕa.wav")	      //unvoiced alveolopalatal
+  addRectangle(465, 110, 493, 139, "ʑ", "ʑa.wav", "aʑa.wav")	      //voiced alveolopalatal
+  addRectangle(493, 110, 520, 139, "ç", "ça.wav", "aça.wav")	      //unvoiced palatal
+  addRectangle(520, 110, 548, 139, "ʝ", "ʝa.wav", "aʝa.wav")	      //voiced palatal
+  addRectangle(548, 110, 578, 139, "x", "xa.wav", "axa.wav")	      //unvoiced velar
+  addRectangle(578, 110, 608, 139, "ɣ", "ɣa.wav", "aɣa.wav")	      //voiced velar
+  addRectangle(608, 110, 638, 139, "χ", "χa.wav", "aχa.wav")	      //unvoiced uvular
+  addRectangle(638, 110, 668, 168, "ʁ", "ʁa.wav", "aʁa.wav")	      //voiced uvular fricative/approximant
   addRectangle(668, 110, 705, 139, "ħ", "ħa.wav", "aħa.wav")	      //Pharyngeal
   addRectangle(705, 110, 740, 168, "ʕ", "ʕa.wav", "aʕa.wav")	      //Glottal fricative/approximant
   addRectangle(740, 110, 771, 168, "h", "ha.wav", "aha.wav")	      //Pharyngeal
   addRectangle(771, 110, 800, 168, "ɦ", "ɦa.wav", "aɦa.wav")	      //Glottal fricative/approximant
 
   //approximants
-  addRectangle(157, 139, 219, 168, "ʋ", "ʋa.wav", "aʋa.wav")	      //labiodental sounded
+  addRectangle(157, 139, 219, 168, "ʋ", "ʋa.wav", "aʋa.wav")	      //voiced labiodental
   addRectangle(219, 139, 377, 168, "ɹ", "ɹa.wav", "aɹa.wav")	      //dental
-  addRectangle(377, 139, 436, 168, "ɻ", "ɻa.wav", "aɻa.wav")	      //retroflex sounded
+  addRectangle(377, 139, 436, 168, "ɻ", "ɻa.wav", "aɻa.wav")	      //voiced retroflex
   addRectangle(438, 139, 549, 168, "j", "ja.wav", "aja.wav")	      //palatal
   addRectangle(549, 139, 609, 168, "ɰ", "ɰa.wav", "aɰa.wav")	      //velar
 
   //taps/flaps
-  addRectangle(157, 168, 219, 198, "ⱱ", "ʋa.wav", "aʋa.wav")	      //labiodental sounded
+  addRectangle(157, 168, 219, 198, "ⱱ", "ʋa.wav", "aʋa.wav")	      //voiced labiodental
   addRectangle(219, 168, 377, 198, "ɾ", "ɾa.wav", "aɾa.wav")	      //dental
-  addRectangle(377, 168, 436, 198, "ɽ", "ɽa.wav", "aɽa.wav")	      //retroflex sounded
+  addRectangle(377, 168, 436, 198, "ɽ", "ɽa.wav", "aɽa.wav")	      //voiced retroflex
 
   //trills
-  addRectangle(98, 198, 158, 226, "ʙ", "ʙa.wav", "aʙa.wav")	        //bilabial sounded
+  addRectangle(98, 198, 158, 226, "ʙ", "ʙa.wav", "aʙa.wav")	        //voiced bilabial
   addRectangle(219, 198, 377, 226, "r", "ra.wav", "ara.wav")	      //dental
   addRectangle(609, 198, 668, 226, "ʀ", "ʀa.wav", "aʀa.wav")	      //uvular
   addRectangle(668, 198, 705, 226, "ʜ", "ʜa.wav", "aʜa.wav")	      //Pharyngeal
   addRectangle(705, 198, 740, 226, "ʢ", "ʢa.wav", "aʢa.wav")	      //Glottal fricative/approximant
 
   //lateral fricatives
-  addRectangle(219, 226, 298, 256, "ɬ", "ɬa.wav", "aɬa.wav")	      //dental unsounded
-  addRectangle(298, 226, 377, 256, "ɮ", "ɮa.wav", "aɮa.wav")	      //dental sounded
+  addRectangle(219, 226, 298, 256, "ɬ", "ɬa.wav", "aɬa.wav")	      //unvoiced dental
+  addRectangle(298, 226, 377, 256, "ɮ", "ɮa.wav", "aɮa.wav")	      //voiced dental
 
   //lateral approximants
   addRectangle(219, 256, 377, 284, "l", "la.wav", "ala.wav")	      //dental
-  addRectangle(377, 256, 436, 284, "ɭ", "ɭa.wav", "aɭa.wav")	      //retroflex sounded
-  addRectangle(438, 256, 548, 284, "ʎ", "ʎa.wav", "aʎa.wav")	      //palatal sounded
-  addRectangle(549, 256, 608, 284, "ʟ", "ʟa.wav", "aʟa.wav")	      //velar sounded
+  addRectangle(377, 256, 436, 284, "ɭ", "ɭa.wav", "aɭa.wav")	      //voiced retroflex
+  addRectangle(438, 256, 548, 284, "ʎ", "ʎa.wav", "aʎa.wav")	      //voiced palatal
+  addRectangle(549, 256, 608, 284, "ʟ", "ʟa.wav", "aʟa.wav")	      //voiced velar
 
   //lateral flaps
   //		addRectangle(219, 284, 377, 314, "ɺ", "ɺa.wav", "aɺa.wav");	//dental
@@ -174,12 +174,12 @@ object IPAClickableMap extends ClickableMap(ImageIO.read(getResourceUrl(GiskardU
   addRectangle(350, 408, 371, 437, "\u02D1")                        //half length ˑ
 
   //other
-  addRectangle(8, 465, 32, 490, "ʍ")                                //voiceless labial-velar fricative ʍ
+  addRectangle(8, 465, 32, 490, "ʍ")                                //unvoiced labial-velar fricative ʍ
   addRectangle(32, 465, 55, 490, "w")                               //voiced labial-velar fricative w
   addRectangle(55, 465, 73, 490, "ɥ")                               //voiced labial-palatal approximant ɥ
   addRectangle(73, 465, 95, 490, "ʜ")                               //voiced epiglottal fricative ʜ
   addRectangle(95, 467, 110, 493, "ɺ")                              //voiced alveolar lateral flap ɺ
-  addRectangle(110, 465, 129, 495, "ɧ")                             // simultaneous ʃ and x -> ɧ
-  addRectangle(133, 470, 176, 490, "{SIL}")                         // silence
+  addRectangle(110, 465, 129, 495, "ɧ")                             //simultaneous ʃ and x -> ɧ
+  addRectangle(133, 470, 176, 490, "{SIL}")                         //silence
 
 }
